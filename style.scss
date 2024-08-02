@@ -1,3 +1,9 @@
+$cor_primaria: #C7D8B5;
+$cor_secundaria: #4D6633;
+$cor_botao: #323330;
+$cor_titulo: #1A2410;
+$tamanho_texto: 24px;
+
 body, h1{
     margin: 0 auto;
 }
@@ -11,33 +17,31 @@ img{
 h1{
     font-size: 36px;
     font-weight: bold;
-    color: #F587DD;
+    color: $cor_titulo;
 }
 
-a{
-text-decoration: none;
-}
 
 .link{
-    font-size: 24px;
+    font-size: $tamanho_texto;
     font-weight: regular;
-    color: #5e6666;
+    color: $cor_botao;
     text-decoration: underline;
 }
 
 .link:hover{
-    color: #F587DD;
-    text-decoration: underline;
+    color: $cor_secundaria;
+    transition: 0.5s;
+    opacity: 0.7;
 }
 
 li{
-    font-size: 24px;
+    font-size: $tamanho_texto;
     font-weight: regular;
 }
 
 
 .texto{
-    font-size: 24px;
+    font-size: $tamanho_texto;
     font-weight: regular;
 }
 
@@ -50,7 +54,7 @@ li{
 }
 
 .section{
-    background-color: #BAF3F6;
+    background-color: $cor_primaria;
     margin-bottom: 16px;
     padding-top: 16px;
     padding-bottom: 16px;

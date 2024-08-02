@@ -11,23 +11,20 @@ img {
 h1 {
   font-size: 36px;
   font-weight: bold;
-  color: #F587DD;
-}
-
-a {
-  text-decoration: none;
+  color: #1A2410;
 }
 
 .link {
   font-size: 24px;
   font-weight: regular;
-  color: #5e6666;
+  color: #323330;
   text-decoration: underline;
 }
 
 .link:hover {
-  color: #F587DD;
-  text-decoration: underline;
+  color: #4D6633;
+  transition: 0.5s;
+  opacity: 0.7;
 }
 
 li {
@@ -49,7 +46,7 @@ li {
 }
 
 .section {
-  background-color: #BAF3F6;
+  background-color: #C7D8B5;
   margin-bottom: 16px;
   padding-top: 16px;
   padding-bottom: 16px;
